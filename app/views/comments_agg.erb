@@ -1,6 +1,15 @@
+<h3>All Comments</h3>
 <% @comments.each do |comment| %>
 
-  <h4><%= comment %></h4>
+  <ul class="stats">
+    <li>By [User Name]</li>
+    <li>Posted <%= pretty_date(comment.created_at) %></li>
+    <li>[Link to Post]</li>
+    <li>[Votes]</li>
+  </ul>
 
   <div class="comment_body">
+    <%= comment.body %>
   </div>
+
+<% end %>
