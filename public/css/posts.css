@@ -1,0 +1,49 @@
+
+
+.post {
+  clear:both;
+  margin-bottom: 100px;
+}
+
+.vote {
+  margin:0;
+  padding: 0;
+  width: 80px;
+  list-style-type: none;
+  float: left;
+}
+
+.post h3 {
+  width: 500px;
+  margin-left: 80px;
+}
+
+.post .stats {
+  clear: both;
+}
+
+.post .stats ul {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+}
+
+.post .stats li {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+
+}
+
+  .post .stats li:nth-of-type(1) {
+    border-right: 1px solid #999;
+    padding-right: 20px;
+  }
+
+.post .stats .comment_count {
+  float: right;
+}
+
+
+
